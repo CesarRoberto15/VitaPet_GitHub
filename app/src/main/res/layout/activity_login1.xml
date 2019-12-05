@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
-        android:text="Start Session"
+        android:text="Iniciar Session"
         android:textSize="40dp"
         android:textAllCaps="false"
         />
