@@ -4,5 +4,5 @@ Developers:
 Brayan F. Guillen Nakagawa
 Denis A. Llamoca Cervantes
 Gelber G. Martinez Pastor
-Cesar R. Ancco
+Cesar R. Ancco Ruelas
 Jhonnatan Poke
