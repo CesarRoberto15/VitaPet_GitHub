@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VitaPet</string>
+    <string name="start_session">Iniciar Sessão</string>
+    <string name="email_phone">Correio eletrônico ou telefone celular</string>
+    <string name="password">Senha</string>
+    <string name="submit">Enviar</string>
+    <string name="forget_password">Você esqueceu sua senha?</string>
+    <string name="enter_with">ou entre com</string>
+    <string name="new_user">Novo usuário</string>
+    <string name="full_name">Nome completo</string>
+    <string name="email">Correio eletrônico</string>
+    <string name="phone_number">Número de telefone</string>
+    <string name="gender">Gênero:</string>
+    <string name="others">Otro</string>
+    <string name="birth_day">Dia de nascimento</string>
+    <string name="day">Dia</string>
+    <string name="month">Mês</string>
+    <string name="year">Ano</string>
+    <string name="conditions">Concordo Termos e Condições</string>
+    <string name="new_notices">Quero receber um novo aviso</string>
+    <string name="sign_up">Inscrever-se</string>
+</resources>

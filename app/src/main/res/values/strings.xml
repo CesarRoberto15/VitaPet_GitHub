@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">VitaPet</string>
+    <string name="start_session">Start Session</string>
+    <string name="email_phone">E-mail or Cell Phone</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="forget_password">Did you forget your password?</string>
+    <string name="enter_with">or enter with</string>
+    <string name="new_user">New User</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">E-mail</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gender">Gender:</string>
+    <string name="others">Others</string>
+    <string name="birth_day">Birth Day</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="conditions">I Agree Terms and Conditions</string>
+    <string name="new_notices">I want to recieve a new notices</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

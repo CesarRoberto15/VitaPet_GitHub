@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
-        android:text="Start Session"
+        android:text="@string/start_session"
         android:textSize="40dp"
         android:textAllCaps="false"
         />
@@ -19,7 +19,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/startsession"
-        android:hint="E-mail or Cell Phone"
+        android:hint="@string/email_phone"
         android:background="@drawable/edit_round"
         android:paddingLeft="10dp"
         android:textAlignment="center"
@@ -31,7 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/user"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:background="@drawable/edit_round"
         android:paddingLeft="10dp"
@@ -44,7 +44,7 @@
         android:layout_below="@id/password"
         android:layout_marginTop="35dp"
         android:layout_centerHorizontal="true"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textSize="20dp"
         android:textAllCaps="false"
         android:textColor="#ffffff"
@@ -58,7 +58,7 @@
         android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
         android:textColor="#0033FF"
-        android:text="Did you forget your password?"
+        android:text="@string/forget_password"
         android:background="#ffffff"
         android:textAllCaps="false"
 
@@ -72,7 +72,7 @@
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:textAllCaps="false"
-        android:text="or enter with"
+        android:text="@string/enter_with"
         />
 
     <ImageButton
