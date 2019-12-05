@@ -12,7 +12,6 @@
     <string name="email">Correo electrónico</string>
     <string name="phone_number">Número de teléfono</string>
     <string name="gender">Género:</string>
-    <string name="others">Outro</string>
     <string name="birth_day">Día de nacimiento</string>
     <string name="day">Día</string>
     <string name="month">Mes</string>
@@ -20,4 +19,5 @@
     <string name="conditions">Acepto los términos y condiciones</string>
     <string name="new_notices">Quiero recibir un nuevo aviso</string>
     <string name="sign_up">Regístrate</string>
+    <string name="others">Otro</string>
 </resources>

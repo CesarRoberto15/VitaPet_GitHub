@@ -12,7 +12,7 @@
     <string name="email">Correio eletrônico</string>
     <string name="phone_number">Número de telefone</string>
     <string name="gender">Gênero:</string>
-    <string name="others">Otro</string>
+    <string name="others">Outro</string>
     <string name="birth_day">Dia de nascimento</string>
     <string name="day">Dia</string>
     <string name="month">Mês</string>
