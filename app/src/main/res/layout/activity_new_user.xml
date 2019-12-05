@@ -70,11 +70,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginLeft="31dp"
-        android:layout_marginTop="269dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="267dp"
         android:layout_toEndOf="@+id/gender"
-        android:layout_toRightOf="@+id/gender" />
+        android:layout_toRightOf="@+id/gender"
+        />
+
+    <ImageView
+        android:id="@+id/image_male"
+        android:layout_width="23dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="273dp"
+        android:src="@drawable/masculino" />
+
+    <ImageView
+        android:id="@+id/image_female"
+        android:layout_width="23dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="273dp"
+        android:background="#ffffff"
+        android:src="@drawable/femenino" />
 
     <RadioButton
         android:id="@+id/female"
