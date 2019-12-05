@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
         android:layout_centerHorizontal="true"
-        android:text="Cambio para el GitHub"
+        android:text="Start Session"
         android:textSize="40dp"
         android:textAllCaps="false"
         />
