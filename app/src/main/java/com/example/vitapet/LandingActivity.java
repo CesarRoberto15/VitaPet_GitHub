@@ -3,22 +3,27 @@ package com.example.vitapet;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.FaceDetector;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 public class LandingActivity extends AppCompatActivity {
 
-    Button login;
-    Button sing_up;
+    Button Login;
+    Button Sing_up;
+    Button Facebook;
+    Button Twitter;
+    Button Google;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
 
-        login =(Button)findViewById(R.id.btn_login);
-        login.setOnClickListener(new View.OnClickListener(){
+        Login =(Button)findViewById(R.id.btn_login);
+        Login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent l=new Intent(LandingActivity.this, Login1.class);
@@ -26,12 +31,39 @@ public class LandingActivity extends AppCompatActivity {
             }
         });
 
-        sing_up = (Button)findViewById(R.id.btn_sing_up);
-        sing_up.setOnClickListener(new View.OnClickListener(){
+        Sing_up = (Button)findViewById(R.id.btn_sing_up);
+        Sing_up.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent l1=new Intent(LandingActivity.this, NewUser.class);
                 startActivity(l1);
+            }
+        });
+
+        Facebook = (Button)findViewById(R.id.btn_facebook);
+        Facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent f=new Intent(LandingActivity.this, FacebookLogin.class);
+                startActivity(f);
+            }
+        });
+
+        Twitter = (Button)findViewById(R.id.btn_twitter);
+        Twitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent t=new Intent(LandingActivity.this, TwitterLogin.class);
+                startActivity(t);
+            }
+        });
+
+        Google = (Button)findViewById(R.id.btn_google);
+        Google.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent g=new Intent(LandingActivity.this, GoogleLogin.class);
+                startActivity(g);
             }
         });
     }
