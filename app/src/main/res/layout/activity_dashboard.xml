@@ -198,7 +198,6 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_margin="25dp"
-                android:onClick="enter_addPet"
                 android:background="@drawable/barra4"
                 />
             <Button
@@ -206,7 +205,6 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_margin="5dp"
-                android:onClick="enter_users"
                 android:background="@drawable/barra5"
                 />
 
