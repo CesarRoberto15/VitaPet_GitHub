@@ -19,6 +19,9 @@
     <string name="conditions">I Agree Terms and Conditions</string>
     <string name="new_notices">I want to recieve a new notices</string>
     <string name="sign_up">Sign Up</string>
+    <string name="sign">Sign in</string>
+    <string name="account_google">with your Google Account</string>
+    <string name="username">Username</string>
 
 
     <string name="user_information">Information: </string>

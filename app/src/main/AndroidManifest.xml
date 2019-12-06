@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        <activity android:name=".AddPet"></activity>
+        <activity android:name=".GoogleLogin"></activity>
+        <activity android:name=".TwitterLogin" />
+        <activity android:name=".FacebookLogin" />
+        <activity android:name=".AddPet" />
         <activity android:name=".User" />
         <activity android:name=".NewUser" />
         <activity android:name=".Login1" />

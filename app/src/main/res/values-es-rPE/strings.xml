@@ -39,4 +39,7 @@
     <string name="add_pet_new">Añadir Mascota</string>
     <string name="add_pet_send">Añadir Mascota</string>
     <string name="user_pet2">Maya \\n Edad: 11 meses \\n Genero: Hembra</string>
+    <string name="sign">Iniciar sesión</string>
+    <string name="account_google">con tu cuenta de Google</string>
+    <string name="username">Nombre de usuario</string>
 </resources>

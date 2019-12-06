@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77ecfd"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logoTwitter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/twitterlogo"
+            />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/logoTwitter"
+            android:layout_marginTop="250dp"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:hint="@string/username"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#ffffff"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/user"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:hint="@string/password"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#ffffff"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/submit"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#77ecfd"
+            android:backgroundTint="#ffffff"
+
+            />
+    </RelativeLayout>
+</ScrollView>

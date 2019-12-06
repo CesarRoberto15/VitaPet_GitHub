@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logoFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:src="@drawable/facebooklogo"
+            />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_below="@+id/logoFacebook"
+            android:hint="@string/email_phone"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/user"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/submit"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="#236fdd"
+            />
+        <Button
+            android:id="@+id/pregunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#0033FF"
+            android:text="@string/forget_password"
+            android:background="#ffffff"
+            android:textAllCaps="false"
+
+            />
+    </RelativeLayout>
+</ScrollView>
