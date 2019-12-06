@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/reports_title"
-            android:text="Mascotas con más frecuencia"
+            android:text="@string/reports_pet_description"
             android:gravity="center_horizontal"
             android:textSize="20dp"
             />
@@ -110,6 +110,113 @@
             android:layout_toRightOf="@+id/rats"
             android:text="@string/hanster" />
 
+        <TextView
+            android:id="@+id/veter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/cats"
+            android:text="@string/reports_description"/>
+
+        <ImageView
+            android:id="@+id/reportpie"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_below="@+id/veter"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/donareport"
+            />
+
+        <TextView
+            android:id="@+id/color1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/reportpie"
+            android:background="#ff6633"
+            />
+
+        <TextView
+            android:id="@+id/vet1"
+            android:layout_below="@+id/reportpie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/color1"
+            android:text="San Juan"
+            />
+        <TextView
+            android:id="@+id/color2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/color1"
+            android:background="#66aa99"
+            />
+
+        <TextView
+            android:id="@+id/vet2"
+            android:layout_below="@+id/vet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/color2"
+            android:text="PetShop"
+            />
+        <TextView
+            android:id="@+id/color3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/color2"
+            android:background="#3a3aba"
+            />
+
+        <TextView
+            android:id="@+id/vet3"
+            android:layout_below="@+id/vet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/color2"
+            android:text="Scubby"
+            />
+        <TextView
+            android:id="@+id/color4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/color3"
+            android:background="#ebeb21"
+            />
+
+        <TextView
+            android:id="@+id/vet4"
+            android:layout_below="@+id/vet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/color3"
+            android:text="LifePet"
+            />
+        <TextView
+            android:id="@+id/color5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/color4"
+            android:background="#999966"
+            />
+
+        <TextView
+            android:id="@+id/vet5"
+            android:layout_below="@+id/vet4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/color4"
+            android:text="@string/reports_others"
+            />
 
     </RelativeLayout>
 

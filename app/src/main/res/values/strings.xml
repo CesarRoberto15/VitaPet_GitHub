@@ -66,8 +66,10 @@
     <string name="ds_lbl_news">Latest news</string>
 
     //Reports
-    <string name="reports_information">Reports</string>
-    <string name="reports_description">The vets you have visited most</string>
+    <string name="reports_information">Weekly report</string>
+    <string name="reports_description">Veterinarians you have visited most</string>
+    <string name="reports_pet_description">Pets you have taken most to veterinarians</string>
+    <string name="reports_others">Others</string>
 
     <string-array name="veterinary">
         <item>San Juan</item>

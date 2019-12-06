@@ -19,7 +19,7 @@ public class TwitterLogin extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent l=new Intent(TwitterLogin.this, User.class);
+                Intent l=new Intent(TwitterLogin.this, DashboardActivity.class);
                 startActivity(l);
             }
         });

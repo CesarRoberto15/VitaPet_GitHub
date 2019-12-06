@@ -77,5 +77,7 @@
     <string name="dogs">Cães</string>
     <string name="rats">Ratos</string>
     <string name="hanster">Hanster</string>
+    <string name="reports_pet_description">Animais de estimação que você mais levou para veterinários</string>
+    <string name="reports_others">Outras</string>
 
 </resources>
