@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class LandingActivity extends AppCompatActivity {
 
     Button login;
     Button sing_up;
@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_landing);
 
         login =(Button)findViewById(R.id.btn_login);
         login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent l=new Intent(MainActivity.this, Login1.class);
+                Intent l=new Intent(LandingActivity.this, Login1.class);
                 startActivity(l);
             }
         });
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         sing_up.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent l1=new Intent(MainActivity.this, NewUser.class);
+                Intent l1=new Intent(LandingActivity.this, NewUser.class);
                 startActivity(l1);
             }
         });
