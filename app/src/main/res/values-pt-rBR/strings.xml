@@ -73,5 +73,9 @@
         <item>AnimalLove</item>
         <item>Outros</item>
     </string-array>
+    <string name="cats">Gatos</string>
+    <string name="dogs">Cães</string>
+    <string name="rats">Ratos</string>
+    <string name="hanster">Hanster</string>
 
 </resources>
