@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class Login1 extends AppCompatActivity {
 
+    Button btn_Previous;
     ImageButton Facebook;
     ImageButton Twitter;
     ImageButton Google;
@@ -21,6 +22,16 @@ public class Login1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login1);
+
+        //BTN PREVIOUS
+        btn_Previous = (Button) findViewById(R.id.lg_ic_previous);
+        btn_Previous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent prev = new Intent(Login1.this, LandingActivity.class);
+                startActivity(prev);
+            }
+        });
 
         Facebook=(ImageButton)findViewById(R.id.facebook);
         Facebook.setOnClickListener(new View.OnClickListener() {

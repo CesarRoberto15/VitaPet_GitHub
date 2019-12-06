@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class NewUser extends AppCompatActivity {
-
+    Button btn_Previous;
     ImageButton Facebook;
     ImageButton Twitter;
     ImageButton Google;
@@ -18,6 +18,16 @@ public class NewUser extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_user);
+
+        //BTN PREVIOUS
+        btn_Previous = (Button) findViewById(R.id.nu_ic_previous);
+        btn_Previous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent prev = new Intent(NewUser.this, LandingActivity.class);
+                startActivity(prev);
+            }
+        });
 
         Facebook=(ImageButton)findViewById(R.id.facebook);
         Facebook.setOnClickListener(new View.OnClickListener() {

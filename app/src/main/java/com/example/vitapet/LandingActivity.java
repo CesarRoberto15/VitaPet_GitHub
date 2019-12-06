@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class LandingActivity extends AppCompatActivity {
-
+    
     Button Login;
     Button Sing_up;
     Button Facebook;
@@ -23,6 +23,7 @@ public class LandingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
 
+        //LOGIN
         Login =(Button)findViewById(R.id.btn_login);
         Login.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -68,7 +69,7 @@ public class LandingActivity extends AppCompatActivity {
             }
         });
 
-        Reportes=(Button)findViewById(R.id.btn_report);
+        Reportes = (Button) findViewById(R.id.btn_report);
         Reportes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
