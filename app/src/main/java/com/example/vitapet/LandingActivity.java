@@ -9,14 +9,13 @@ import android.view.View;
 import android.widget.Button;
 
 public class LandingActivity extends AppCompatActivity {
-    
+
     Button Login;
     Button Sing_up;
+
     Button Facebook;
     Button Twitter;
     Button Google;
-    Button Reportes;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +27,7 @@ public class LandingActivity extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent l=new Intent(LandingActivity.this, Login1.class);
+                Intent l = new Intent(LandingActivity.this, Login1.class);
                 startActivity(l);
             }
         });
@@ -37,7 +36,7 @@ public class LandingActivity extends AppCompatActivity {
         Sing_up.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent l1=new Intent(LandingActivity.this, NewUser.class);
+                Intent l1 = new Intent(LandingActivity.this, NewUser.class);
                 startActivity(l1);
             }
         });
@@ -68,16 +67,6 @@ public class LandingActivity extends AppCompatActivity {
                 startActivity(g);
             }
         });
-
-        Reportes = (Button) findViewById(R.id.btn_report);
-        Reportes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent r=new Intent(LandingActivity.this, Reports.class);
-                startActivity(r);
-            }
-        });
-
 
     }
     /*public void reports(View view){
