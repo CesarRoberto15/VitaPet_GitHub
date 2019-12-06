@@ -20,20 +20,23 @@
     <string name="new_notices">Quiero recibir un nuevo aviso</string>
     <string name="sign_up">Regístrate</string>
     <string name="others">Otro</string>
-    <string name="user_information">Información</string>
-    <string name="user_email">Email:</string>
+
+
+    <string name="user_information">Información:</string>
+    <string name="user_email">Correo: </string>
     <string name="user_email_user">dllamocac@gmail.com</string>
-    <string name="user_phone">Phone</string>
+    <string name="user_phone">Celular: </string>
     <string name="user_phone_user">940012774</string>
-    <string name="user_gender">Gender</string>
-    <string name="user_gender_user">Male</string>
-    <string name="user_birthday">Birthday:</string>
+    <string name="user_gender">Genero: </string>
+    <string name="user_gender_user">Masculino</string>
+    <string name="user_birthday">Cumpleaños: :</string>
     <string name="user_birthday_user">11/11/2000</string>
-    <string name="user_line">__________________________</string>
-    <string name="user_pets">PETS</string>
-    <string name="user_pet1">Mirlo \\n Age: 1 month \\n Gender: Male</string>
-    <string name="user_pet3">Ricky \\n Age: 1 year \\n Gender: Male</string>
-    <string name="users_add_pet">Add Pet</string>
-    <string name="add_pet_new">Add Pet</string>
-    <string name="add_pet_send">Add Pet</string>
+    <string name="user_line">_______________________________________________________________________</string>
+    <string name="user_pets">Mascotas</string>
+    <string name="user_pet1">Mirlo \\n Edad: 1 mes \\n Gender: Macho</string>
+    <string name="user_pet3">Ricky \\n Edad: 1 año \\n Gender: Macho</string>
+    <string name="users_add_pet">Añadir Mascota</string>
+    <string name="add_pet_new">Añadir Mascota</string>
+    <string name="add_pet_send">Añadir Mascota</string>
+    <string name="user_pet2">Maya \\n Edad: 11 meses \\n Genero: Hembra</string>
 </resources>

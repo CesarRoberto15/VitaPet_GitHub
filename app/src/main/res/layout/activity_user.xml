@@ -201,7 +201,7 @@
                     android:id="@+id/pet2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/user_pet1"
+                    android:text="@string/user_pet2"
                     android:paddingLeft="90dp"
                     android:textColor="@android:color/white"
                     android:layout_gravity="center_vertical"

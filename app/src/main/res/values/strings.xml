@@ -37,6 +37,7 @@
     <string name="users_add_pet">Add Pet</string>
     <string name="add_pet_new">Add Pet</string>
     <string name="add_pet_send">Add Pet</string>
+    <string name="user_pet2">Maya \n Age: 11 months \n Gender: Female</string>
 
 
 </resources>
