@@ -42,4 +42,21 @@ public class DashboardActivity extends AppCompatActivity {
         });
 
     }
+
+    public void enter_users(View view){
+        Intent principalIntent= new Intent(this,User.class);
+        startActivity(principalIntent);
+    }
+
+    public void enter_addPet(View view){
+        Intent principalIntent= new Intent(this,AddPet.class);
+        startActivity(principalIntent);
+    }
+
+    public void enter_Reports(View view){
+        Intent principalIntent= new Intent(this,AddPet.class);
+        startActivity(principalIntent);
+    }
+
+
 }
