@@ -22,6 +22,10 @@
     <string name="sign">Sign in</string>
     <string name="account_google">with your Google Account</string>
     <string name="username">Username</string>
+    <string name="cats">Cats</string>
+    <string name="dogs">Dogs</string>
+    <string name="rats">Rats</string>
+    <string name="hanster">Hanster</string>
 
 
     <string name="user_information">Information: </string>
@@ -55,6 +59,11 @@
     <string name="vr_btn_verify">Verify</string>
     <string name="vr_txt_resend">Not Send? Resend</string>
     <string name="vr_txt_insert">Insert code here</string>
+
+    //DASHBOARD
+    <string name="ds_lbl_title">Hi Denis</string>
+    <string name="ds_lbl_pets">Your Pets</string>
+    <string name="ds_lbl_news">Latest news</string>
 
     //Reports
     <string name="reports_information">Reports</string>
