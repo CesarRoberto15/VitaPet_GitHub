@@ -6,18 +6,18 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 
-import com.github.mikephil.charting.charts.PieChart;
+/*import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.mikephil.charting.utils.ColorTemplate;*/
 
 import java.util.ArrayList;
 
 
 public class Reports extends AppCompatActivity {
 
-    PieChart pieChart;
+    //PieChart pieChart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class Reports extends AppCompatActivity {
         String[] arcano = res.getStringArray(R.array.veterinary);
 
 
-        pieChart =(PieChart) findViewById(R.id.pieChart);
+        /*pieChart =(PieChart) findViewById(R.id.pieChart);
 
         pieChart.setUsePercentValues(true);
         pieChart.getDescription().setEnabled(false);
@@ -56,7 +56,7 @@ public class Reports extends AppCompatActivity {
         data.setValueTextSize(10f);
         data.setValueTextColor(Color.YELLOW);
 
-        pieChart.setData(data);
+        pieChart.setData(data);*/
 
 
 

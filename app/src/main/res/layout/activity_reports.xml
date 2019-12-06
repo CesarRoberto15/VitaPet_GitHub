@@ -9,6 +9,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="start"
+            >
+            <Button
+                android:id="@+id/rc_btn_previous"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/ic_flecha_izquierda"
+                />
+            <ImageView
+                android:id="@+id/lbl_app"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/title_vitapet"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
         <TextView
             android:id="@+id/reports_title"
             android:layout_marginTop="40dp"
@@ -16,24 +39,76 @@
             android:layout_height="wrap_content"
             android:text="@string/reports_information"
             android:gravity="center_horizontal"
+            android:textSize="40dp"
             />
         <TextView
             android:id="@+id/reports_description"
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reports_description"
+            android:layout_below="@+id/reports_title"
+            android:text="Mascotas con más frecuencia"
             android:gravity="center_horizontal"
+            android:textSize="20dp"
             />
 
-        <com.github.mikephil.charting.charts.LineChart
-            android:layout_below="@+id/reports_title"
-            android:id="@+id/pieChart"
-            android:layout_marginTop="20dp"
+        <ImageView
+            android:id="@+id/report_bar"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reports_description"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/reportesbarras"
+            />
 
+        <TextView
+            android:id="@+id/cats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/report_bar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="-13dp"
+            android:text="@string/cats" />
 
+        <TextView
+            android:id="@+id/dogs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/report_bar"
+            android:layout_marginStart="34dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="-12dp"
+            android:layout_toEndOf="@+id/hanster"
+            android:layout_toRightOf="@+id/hanster"
+            android:text="@string/dogs" />
+
+        <TextView
+            android:id="@+id/rats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/report_bar"
+            android:layout_marginStart="51dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="-11dp"
+            android:layout_toEndOf="@+id/cats"
+            android:layout_toRightOf="@+id/cats"
+            android:text="@string/rats" />
+
+        <TextView
+            android:id="@+id/hanster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/report_bar"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="-11dp"
+            android:layout_toEndOf="@+id/rats"
+            android:layout_toRightOf="@+id/rats"
+            android:text="@string/hanster" />
 
 
     </RelativeLayout>
