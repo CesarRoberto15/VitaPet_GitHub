@@ -58,6 +58,7 @@
 
     //Reports
     <string name="reports_information">Reports</string>
+    <string name="reports_description">The vets you have visited most</string>
 
     <string-array name="veterinary">
         <item>San Juan</item>

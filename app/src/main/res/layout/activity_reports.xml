@@ -17,6 +17,14 @@
             android:text="@string/reports_information"
             android:gravity="center_horizontal"
             />
+        <TextView
+            android:id="@+id/reports_description"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reports_description"
+            android:gravity="center_horizontal"
+            />
 
         <com.github.mikephil.charting.charts.LineChart
             android:layout_below="@+id/reports_title"
