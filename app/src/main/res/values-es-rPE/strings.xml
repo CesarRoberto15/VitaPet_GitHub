@@ -57,4 +57,16 @@
     <string name="vr_txt_resend">¿No enviado? Reenviar</string>
     <string name="vr_txt_insert">Insertar código aquí</string>
 
+
+    //Reports
+    <string name="reports_information">Reports</string>
+
+    <string-array name="veterinary">
+        <item>San Juan</item>
+        <item>PetLife</item>
+        <item>DogLove</item>
+        <item>AnimalLove</item>
+        <item>Otros</item>
+    </string-array>
+
 </resources>
