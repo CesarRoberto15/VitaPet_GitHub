@@ -44,8 +44,8 @@
 
     //RECOVER ACTIVITY
     <string name="rc_lbl_title">Recover password</string>
-    <string name="rc_lbl_message">We send a code to your phone,\n please insert here</string>
-    <string name="rc_btn_verify">Verify</string>
+    <string name="rc_lbl_message">If you have forgotten your password, then you damage your email.\nWe will send you a link to change the password.</string>
+    <string name="rc_btn_submit">Submit</string>
     <string name="rc_resend">Not Send? Resend</string>
     <string name="rc_txt_confirmation">Confirmation code</string>
 

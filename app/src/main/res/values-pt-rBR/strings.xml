@@ -45,8 +45,8 @@
 
     //RECOVER ACTIVITY
     <string name="rc_lbl_title">Recuperar senha</string>
-    <string name="rc_lbl_message">Enviamos um código para o seu telefone,\n por favor, insira aqui</string>
-    <string name="rc_btn_verify">Verificar</string>
+    <string name="rc_lbl_message">Se você esqueceu sua senha, em seguida, danificar o seu e-mail.\n Enviaremos um link para alterar a senha.</string>
+    <string name="rc_btn_submit">Enviar</string>
     <string name="rc_resend">Não enviar? Reenviar</string>
     <string name="rc_txt_confirmation">Código de confirmação</string>
 
