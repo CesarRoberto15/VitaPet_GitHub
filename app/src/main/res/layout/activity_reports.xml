@@ -125,7 +125,7 @@
             android:layout_below="@+id/veter"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/donareport"
+            android:src="@drawable/donaReport"
             />
 
         <TextView
