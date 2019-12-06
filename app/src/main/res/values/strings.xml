@@ -22,6 +22,10 @@
     <string name="sign">Sign in</string>
     <string name="account_google">with your Google Account</string>
     <string name="username">Username</string>
+    <string name="cats">Cats</string>
+    <string name="dogs">Dogs</string>
+    <string name="rats">Rats</string>
+    <string name="hanster">Hanster</string>
 
 
     <string name="user_information">Information: </string>
