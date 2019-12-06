@@ -23,9 +23,7 @@ public class DashboardActivity extends AppCompatActivity {
 
         //BTN NOTICIAS
 
-
         //BTN REPORTES
-
 
         //BTN MAPA
 
