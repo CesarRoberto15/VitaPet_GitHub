@@ -1,9 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".User">
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagen"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/perro"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/infor"
+            android:layout_below="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="40dp"
+            android:textAllCaps="true"
+            android:text="@string/user_information"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:layout_below="@+id/infor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/user_email"
+            />
+
+        <TextView
+            android:id="@+id/email-users"
+            android:layout_below="@+id/infor"
+            android:layout_toRightOf="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/user_email_user"
+            />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_below="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/user_phone"
+            />
+
+        <TextView
+            android:id="@+id/phone-users"
+            android:layout_below="@+id/email"
+            android:layout_toRightOf="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/user_phone_user"
+            />
+        <TextView
+            android:id="@+id/gender"
+            android:layout_below="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/user_gender"
+            />
+
+        <TextView
+            android:id="@+id/gender-users"
+            android:layout_below="@+id/phone"
+            android:layout_toRightOf="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/user_gender_user"
+            />
+        <TextView
+            android:id="@+id/birthday"
+            android:layout_below="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/user_birthday"
+            />
+
+        <TextView
+            android:id="@+id/birthday-users"
+            android:layout_below="@+id/gender"
+            android:layout_toRightOf="@+id/birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/user_birthday_user"
+            />
+
+
+        <TextView
+            android:id="@+id/user_line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_below="@+id/birthday"
+            android:text="@string/user_line"
+            />
+       <TextView
+           android:id="@+id/user_pets"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/user_pets"
+           android:layout_below="@+id/user_line"
+           android:textSize="30dp"
+           />
+
+        <Button
+            android:id="@+id/addPet"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_line"
+            android:layout_toRightOf="@+id/user_pets"
+            android:text="@string/users_add_pet"
+            android:textSize="20dp"
+            android:layout_marginLeft="290dp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:onClick="addPet"
+            android:background="@drawable/button_rounded"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/user_line">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/colorAccent"
+
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cat"
+                    android:layout_width="70dp"
+                    android:layout_below="@+id/ll_user"
+                    android:layout_height="70dp"
+                    android:src="@drawable/perro"
+                    />
+
+                <TextView
+                    android:id="@+id/pet1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_pet1"
+                    android:paddingLeft="90dp"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary"
+
+
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cat2"
+                    android:layout_width="70dp"
+                    android:layout_below="@+id/ll_user"
+                    android:layout_height="70dp"
+                    android:src="@drawable/perro"
+                    />
+
+                <TextView
+                    android:id="@+id/pet2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_pet1"
+                    android:paddingLeft="90dp"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/holo_blue_light"
+
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cat3"
+                    android:layout_width="70dp"
+                    android:layout_below="@+id/ll_user"
+                    android:layout_height="70dp"
+                    android:src="@drawable/perro"
+                    />
+
+                <TextView
+                    android:id="@+id/pet3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_pet3"
+                    android:paddingLeft="90dp"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
