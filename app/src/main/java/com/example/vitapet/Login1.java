@@ -16,6 +16,7 @@ public class Login1 extends AppCompatActivity {
     ImageButton Google;
     Button Login;
     TextView Recover;
+    Button Submit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +64,15 @@ public class Login1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent r = new Intent(Login1.this, RecoverActivity.class);
                 startActivity(r);
+            }
+        });
+
+        Submit = (Button) findViewById(R.id.login);
+        Submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent s = new Intent(Login1.this, DashboardActivity.class);
+                startActivity(s);
             }
         });
     }
