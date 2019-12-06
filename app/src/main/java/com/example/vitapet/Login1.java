@@ -13,6 +13,7 @@ public class Login1 extends AppCompatActivity {
     ImageButton Facebook;
     ImageButton Twitter;
     ImageButton Google;
+    Button Login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +43,15 @@ public class Login1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent g=new Intent(Login1.this, GoogleLogin.class);
                 startActivity(g);
+            }
+        });
+
+        Login=(Button)findViewById(R.id.login);
+        Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent l1=new Intent(Login1.this, User.class);
+                startActivity(l1);
             }
         });
     }
