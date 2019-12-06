@@ -2,9 +2,12 @@ package com.example.vitapet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 /*import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;
@@ -18,6 +21,7 @@ import java.util.ArrayList;
 public class Reports extends AppCompatActivity {
 
     //PieChart pieChart;
+    Button btn_Previous;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +62,15 @@ public class Reports extends AppCompatActivity {
 
         pieChart.setData(data);*/
 
-
+        //BTN PREVIOUS
+        btn_Previous = (Button) findViewById(R.id.rp_ic_previous);
+        btn_Previous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent prev = new Intent(Reports.this, DashboardActivity.class);
+                startActivity(prev);
+            }
+        });
 
 
     }

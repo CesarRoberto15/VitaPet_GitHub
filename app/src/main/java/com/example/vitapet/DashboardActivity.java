@@ -45,7 +45,7 @@ public class DashboardActivity extends AppCompatActivity {
         btn_Reports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent r = new Intent(DashboardActivity.this, LandingActivity.class);
+                Intent r = new Intent(DashboardActivity.this, Reports.class);
                 startActivity(r);
             }
         });
@@ -86,11 +86,6 @@ public class DashboardActivity extends AppCompatActivity {
 
     public void enter_addPet(View view){
         Intent principalIntent= new Intent(this,AddPet.class);
-        startActivity(principalIntent);
-    }
-
-    public void enter_Reports(View view){
-        Intent principalIntent= new Intent(this,Reports.class);
         startActivity(principalIntent);
     }
 

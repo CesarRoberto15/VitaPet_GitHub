@@ -17,7 +17,7 @@
             android:layout_gravity="start"
             >
             <Button
-                android:id="@+id/rc_btn_previous"
+                android:id="@+id/rp_ic_previous"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_margin="5dp"
