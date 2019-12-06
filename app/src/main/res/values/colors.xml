@@ -3,4 +3,13 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="name_app">#4A5526</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorVerdeTenis">#126534</color>
+    <color name="colorVerdePacai">#526A2F</color>
+    <color name="colorPlomo">#707070</color>
+    <color name="colorAzulFacebook">#2D4FEB</color>
+    <color name="colorCelesteTwitter">#42DFDF</color>
+    <color name="colorRojoGmail">#E85A5A</color>
+    <color name ="colorNegro">#010101</color>
 </resources>

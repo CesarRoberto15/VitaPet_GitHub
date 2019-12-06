@@ -9,15 +9,16 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button Login;
-    Button New;
+    Button login;
+    Button sing_up;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Login=(Button)findViewById(R.id.login);
-        Login.setOnClickListener(new View.OnClickListener() {
+        login =(Button)findViewById(R.id.btn_login);
+        login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent l=new Intent(MainActivity.this, Login1.class);
@@ -25,13 +26,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        New=(Button)findViewById(R.id.newaccount);
-        New.setOnClickListener(new View.OnClickListener() {
+        sing_up = (Button)findViewById(R.id.btn_sing_up);
+        sing_up.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent l1=new Intent(MainActivity.this, NewUser.class);
                 startActivity(l1);
             }
         });
+
     }
 }
