@@ -66,5 +66,14 @@ public class LandingActivity extends AppCompatActivity {
                 startActivity(g);
             }
         });
+
+
     }
+    public void reports(View view){
+        Intent principalIntent= new Intent(this,Reports.class);
+        startActivity(principalIntent);
+    }
+
+
+
 }
