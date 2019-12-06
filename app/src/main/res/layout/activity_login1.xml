@@ -81,17 +81,18 @@
             android:textColor="#ffffff"
             android:background="@drawable/button_rounded"
             />
-        <Button
-            android:id="@+id/pregunta"
-            android:layout_width="wrap_content"
+
+        <TextView
+            android:id="@+id/lg_txt_pregunta"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/login"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="5dp"
             android:layout_centerHorizontal="true"
-            android:textColor="#0033FF"
+            android:textColor="@color/colorAzulFacebook"
             android:text="@string/forget_password"
-            android:background="#ffffff"
             android:textAllCaps="false"
+            android:gravity="end"
 
             />
 
@@ -99,7 +100,7 @@
             android:id="@+id/aviso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/pregunta"
+            android:layout_below="@+id/lg_txt_pregunta"
             android:layout_marginTop="30dp"
             android:layout_centerHorizontal="true"
             android:textAllCaps="false"

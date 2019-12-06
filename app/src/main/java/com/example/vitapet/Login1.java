@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class Login1 extends AppCompatActivity {
 
@@ -14,7 +15,7 @@ public class Login1 extends AppCompatActivity {
     ImageButton Twitter;
     ImageButton Google;
     Button Login;
-    Button Recover;
+    TextView Recover;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,11 +57,11 @@ public class Login1 extends AppCompatActivity {
             }
         });
 
-        Recover=(Button)findViewById(R.id.pregunta);
+        Recover=(TextView) findViewById(R.id.lg_txt_pregunta);
         Recover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent r=new Intent(Login1.this, RecoverActivity.class);
+                Intent r = new Intent(Login1.this, RecoverActivity.class);
                 startActivity(r);
             }
         });
