@@ -50,4 +50,11 @@
     <string name="rc_resend">¿No enviado? Reenviar</string>
     <string name="rc_txt_confirmation">Confirmar código</string>
 
+    //VERIFY ACTIVITY
+    <string name="vr_lbl_title">Verificar tu teléfono</string>
+    <string name="vr_lbl_message">Enviamos un código a su teléfono,\n por favor inserte aquí</string>
+    <string name="vr_btn_verify">Verificar</string>
+    <string name="vr_txt_resend">¿No enviado? Reenviar</string>
+    <string name="vr_txt_insert">Insertar código aquí</string>
+
 </resources>

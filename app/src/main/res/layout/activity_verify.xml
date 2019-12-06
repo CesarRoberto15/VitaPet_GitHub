@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RecoverActivity">
+    tools:context=".VerifyActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,14 +13,12 @@
         android:layout_gravity="start"
         >
         <Button
-            android:id="@+id/rc_btn_previous"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_margin="5dp"
             android:background="@drawable/ic_flecha_izquierda"
             />
         <ImageView
-            android:id="@+id/lbl_app"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:src="@drawable/title_vitapet"
@@ -34,37 +32,33 @@
         android:orientation="vertical"
         android:gravity="center">
         <TextView
-            android:id="@+id/rc_lbl_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="@string/rc_lbl_title"
+            android:text="@string/vr_lbl_title"
             android:textColor="@color/colorNegro"
             android:textSize="30dp"
             android:textAlignment="center"
             />
         <TextView
-            android:id="@+id/rc_lbl_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rc_lbl_message"
+            android:text="@string/vr_lbl_message"
             android:textColor="@color/colorPlomo"
             android:textAlignment="center"
             />
         <EditText
-            android:id="@+id/rc_txt_code"
             android:layout_width="265dp"
             android:layout_height="40dp"
             android:textAlignment="center"
             android:background="@drawable/edit_round"
             android:layout_margin="15dp"
-            android:hint="@string/email"
+            android:hint="@string/vr_txt_insert"
             />
         <Button
-            android:id="@+id/rc_btn_verify"
             android:layout_width="270dp"
             android:layout_height="50dp"
-            android:text="@string/rc_btn_submit"
+            android:text="@string/vr_btn_verify"
             android:background="@drawable/btn_rounded"
             android:backgroundTint="@color/colorVerdeTenis"
             android:textSize="20dp"
@@ -75,12 +69,10 @@
             android:id="@+id/rc_txt_resend"
             android:layout_width="270dp"
             android:layout_height="wrap_content"
-            android:text="@string/rc_resend"
+            android:text="@string/vr_txt_resend"
             android:gravity="end"
             android:textColor="@color/colorAzulFacebook"
             />
-
-
     </LinearLayout>
 
-</RelativeLayout>
+</RelativeLayout >

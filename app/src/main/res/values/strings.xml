@@ -49,5 +49,12 @@
     <string name="rc_resend">Not Send? Resend</string>
     <string name="rc_txt_confirmation">Confirmation code</string>
 
+    //VERIFY ACTIVITY
+    <string name="vr_lbl_title">Verify your phone</string>
+    <string name="vr_lbl_message">We send a code to your phone,\n please insert here</string>
+    <string name="vr_btn_verify">Verify</string>
+    <string name="vr_txt_resend">Not Send? Resend</string>
+    <string name="vr_txt_insert">Insert code here</string>
+
 
 </resources>
