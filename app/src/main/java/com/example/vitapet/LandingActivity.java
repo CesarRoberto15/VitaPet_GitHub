@@ -15,6 +15,7 @@ public class LandingActivity extends AppCompatActivity {
     Button Facebook;
     Button Twitter;
     Button Google;
+    Button Reportes;
 
 
     @Override
@@ -67,12 +68,21 @@ public class LandingActivity extends AppCompatActivity {
             }
         });
 
+        Reportes=(Button)findViewById(R.id.btn_report);
+        Reportes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent r=new Intent(LandingActivity.this, Reports.class);
+                startActivity(r);
+            }
+        });
+
 
     }
-    public void reports(View view){
+    /*public void reports(View view){
         Intent principalIntent= new Intent(this,Reports.class);
         startActivity(principalIntent);
-    }
+    }*/
 
 
 
