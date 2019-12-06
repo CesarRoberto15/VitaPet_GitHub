@@ -42,4 +42,12 @@
     <string name="sign">Iniciar sesión</string>
     <string name="account_google">con tu cuenta de Google</string>
     <string name="username">Nombre de usuario</string>
+
+    //RECOVER ACTIVITY
+    <string name="rc_lbl_title">Recuperar contraseña</string>
+    <string name="rc_lbl_message">Enviamos un código a su teléfono,\n por favor inserte aquí</string>
+    <string name="rc_btn_verify">Verificar</string>
+    <string name="rc_resend">¿No enviado? Reenviar</string>
+    <string name="rc_txt_confirmation">Confirmar código</string>
+
 </resources>

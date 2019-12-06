@@ -42,5 +42,12 @@
     <string name="add_pet_send">Add Pet</string>
     <string name="user_pet2">Maya \n Age: 11 months \n Gender: Female</string>
 
+    //RECOVER ACTIVITY
+    <string name="rc_lbl_title">Recover password</string>
+    <string name="rc_lbl_message">We send a code to your phone,\n please insert here</string>
+    <string name="rc_btn_verify">Verify</string>
+    <string name="rc_resend">Not Send? Resend</string>
+    <string name="rc_txt_confirmation">Confirmation code</string>
+
 
 </resources>
