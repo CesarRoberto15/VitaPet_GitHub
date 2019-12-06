@@ -57,6 +57,11 @@
     <string name="vr_txt_resend">Não enviado? Frente</string>
     <string name="vr_txt_insert">Inserir código aqui</string>
 
+    //DASHBOARD
+    <string name="ds_lbl_title">Olá Denis</string>
+    <string name="ds_lbl_pets">seus animais de estimação</string>
+    <string name="ds_lbl_news">Últimas notícias</string>
+
     //Reports
     <string name="reports_information">Reports</string>
     <string name="reports_description">Os veterinários que você visitou mais</string>

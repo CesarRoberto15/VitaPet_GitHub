@@ -57,6 +57,10 @@
     <string name="vr_txt_resend">¿No enviado? Reenviar</string>
     <string name="vr_txt_insert">Insertar código aquí</string>
 
+    //DASHBOARD
+    <string name="ds_lbl_title">Hola Denis</string>
+    <string name="ds_lbl_pets">Tus mascotas</string>
+    <string name="ds_lbl_news">Últimas noticias</string>
 
     //Reports
     <string name="reports_information">Reports</string>
