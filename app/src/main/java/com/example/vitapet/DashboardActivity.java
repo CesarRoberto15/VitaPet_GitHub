@@ -54,7 +54,7 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     public void enter_Reports(View view){
-        Intent principalIntent= new Intent(this,AddPet.class);
+        Intent principalIntent= new Intent(this,Reports.class);
         startActivity(principalIntent);
     }
 
